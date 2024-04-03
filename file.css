@@ -1,0 +1,65 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    padding-bottom: 8%;
+}
+.Corpo{
+    width: 90%;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+header>img{
+    width: 200px;
+    margin-top: 70px;
+}
+header>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: rgb(109,255, 47);
+    margin: 3px;
+}
+nav{
+    background-color: rgb(109, 255, 47);
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    text-align: center;
+}
+section{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section  h2{
+    display: inline;
+    size: 14px;
+}
+div .Arrow:after{
+    content: "\21A6";
+    
+}
+#barra1{
+    background-color:rgb(255, 192, 97);
+    width: 30%;
+    padding: 10px;
+}
+#barra2{
+    background-color:rgb(47, 168, 92);
+    width: 70%;
+    padding: 10px;
+}
+#barra3{
+    background-color:rgb(200, 51, 51);
+    width: 10%;
+    padding: 10px;
+}
